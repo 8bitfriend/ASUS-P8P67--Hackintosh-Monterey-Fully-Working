@@ -7,6 +7,8 @@ ASUS hat mit den BIOS-Versionen 3xxx (z. B. 3602) einen zweiten, nicht existie
 
 Die Lösung: Ein codeless Companion-Kext, der eine eigene IOKit-Persönlichkeit bereitstellt, die den speziellen Controller-Treiber AppleHDA8086_9D70Controller direkt an pci8086,1c20 bindet – mit höherer Priorität (IOProbeScore). So wird der Phantom-Codec umgangen.
 
+Instruktionen wurden mit Hilfe von KI erstellt und können Fehler enthalten.
+
 Schritt 1: Den Companion-Kext erstellen
 
 Öffne ein Terminal (unter macOS).
